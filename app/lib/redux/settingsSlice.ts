@@ -142,6 +142,7 @@ export const {
   changeSettings,
   changeShowBulletPoints,
   changeShowForm,
+  setSettings
 } = settingsSlice.actions;
 
 export const selectSettings = (state: RootState) => state.settings;
